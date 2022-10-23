@@ -27,11 +27,11 @@ Here are a few examples:
 
 <pre>
 // Add an item
-./todoApp -add This is my first task
-./todoApp -add This is my second task
+todoApp -add This is my first task
+todoApp -add This is my second task
 
 // List all tasks
-./todoApp -list
+todoApp -list
 
 //output
 1: This is my first task
@@ -39,7 +39,7 @@ Here are a few examples:
 
 // Mark a task as complete
 
-./todoApp complete 1
+todoApp complete 1
 
 //output
 X 1: This is my first task
@@ -47,7 +47,7 @@ X 1: This is my first task
 
 // Delete a task from the list
 
-./todoApp -delete 1
+todoApp -delete 1
 
 //output
 
